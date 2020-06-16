@@ -8,6 +8,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(distance)
 })
 input.onButtonPressed(Button.AB, function () {
+    basic.showIcon(IconNames.Heart)
     distance = 0
 })
 input.onButtonPressed(Button.B, function () {
